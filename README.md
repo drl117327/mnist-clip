@@ -11,4 +11,7 @@
 * text_encoder没有用transformer，接收0~9数字ID，简单embedding+dense输出text embedding
 * image embedding和text embedding做点积，得到logits，点积最大的(image,text)对最为相似
 
+###loss图
+loss.png表示仓库中的模型经过train.py后绘制的图像
 
+loss2.png表示模型从0开始训练后绘制的图像
